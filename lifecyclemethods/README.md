@@ -126,8 +126,23 @@ public class MainActivity extends AppCompatActivity {
 
 
 ## OUTPUT
+onStart():
+![WhatsApp Image 2023-06-09 at 8 08 21 PM (1)](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/d216529b-b5d7-44ff-929c-499ac5e26e68)
 
+onCreate():
+![WhatsApp Image 2023-06-09 at 8 08 22 PM](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/0dcb1093-4b09-4e9d-b63f-3c1c49e3fe6a)
 
+onPause():
+![WhatsApp Image 2023-06-09 at 8 08 20 PM (2)](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/7de4f137-f4fd-4061-9213-fc2443cd06fe)
+
+onResume():
+![WhatsApp Image 2023-06-09 at 8 08 21 PM](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/3d1f488b-74b2-4935-ae95-9fb0e69939eb)
+
+onRestart():
+![WhatsApp Image 2023-06-09 at 8 08 20 PM (1)](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/ba671acb-e6f2-4060-9433-7598718aaf7f)
+
+onStop():
+![WhatsApp Image 2023-06-09 at 8 08 20 PM](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/44607476-c8d8-4791-80b7-5b4ecc31daca)
 
 
 ## RESULT
