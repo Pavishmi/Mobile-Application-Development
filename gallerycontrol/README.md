@@ -21,9 +21,11 @@ Step 4: Then select the Empty Activity and click Next. Finally click Finish.
 
 Step 5: Design layout in activity_main.xml.
 
-Step 6: Complete the necessary coding in MainActivity and CustomizedGalleryAdapter file.
+Step 6: Insert the required images in the res->drawable folder.
 
-Step 7: Save and run the application.
+Step 7: Complete the necessary coding in MainActivity and CustomizedGalleryAdapter file.
+
+Step 8: Save and run the application.
 
 
 ## PROGRAM:
