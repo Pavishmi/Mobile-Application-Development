@@ -49,9 +49,9 @@ import android.widget.AdapterView;
 import android.widget.Gallery;
 import android.widget.ImageView;
 public class MainActivity extends AppCompatActivity {
+    Gallery simpleGallery;
     CustomizedGalleryAdapter customGalleryAdapter;
     ImageView selectedImageView;
-    
     int[] images = {R.drawable.bird, R.drawable.bt21,R.drawable.bts,R.drawable.grin};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -148,8 +148,7 @@ public class CustomizedGalleryAdapter extends BaseAdapter {
 
 ## OUTPUT
 
-![WhatsApp Image 2023-06-04 at 12 53 15 AM](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/4cd84d0d-ab74-44b6-a71f-830295a3bb2d)
-
+![image](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/bfa62727-7cd0-4a40-ad84-edf05a9ee625)
 
 ## RESULT
 Thus a Simple Android Application to create a gallery control using android studio to display images or photos is developed and executed successfully.
