@@ -125,7 +125,7 @@ Registeration Number : 212221040118
     </LinearLayout>
 ```
 # MainActivity.java
-
+```
 package com.example.gui_118;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -259,7 +259,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
+```
 ## OUTPUT
 
 ![1](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/f628748d-952b-4f5c-92da-0823e62328e1)
