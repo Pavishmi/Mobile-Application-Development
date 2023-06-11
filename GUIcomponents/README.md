@@ -13,16 +13,23 @@ Latest Version Android Studio
 ## ALGORITHM:
 
 Step 1: Open Android Studio and click on "File" -> "New" -> "New Project".
+
 Step 2 Design the layout by adding GUI components like buttons, text views, etc., and assign 
 appropriate IDs to them.
+
 Step 3: Add a button for colors and a button for fonts, and set their respective click listeners.
+
 Step 4: In the click listener for the color button, prompt the user to select a color and change 
 the background color of a specific view or the entire layout based on the user's selection.
+
 Step 5: In the click listener for the font button, prompt the user to select a font and change the 
 font of a specific view or the entire layout based on the user's selection.
+
 Step 6: In the MainActivity.java file, implement the logic to display a message when the 
 application starts.
+
 Step 7: Save the changes and run the application on an Android device or emulator.
+
 Step 8: Verify that the application launches successfully and displays the message.
 
 ## PROGRAM:
