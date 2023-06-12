@@ -58,6 +58,27 @@ Registeration Number : 212221040118
 ### activity_main.xml
 ```
 <?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+```
+### menu_item.xml
+```
+<?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
  xmlns:app="http://schemas.android.com/apk/res-auto"
  xmlns:tools="http://schemas.android.com/tools"
@@ -90,11 +111,52 @@ Registeration Number : 212221040118
 ```
 ### MainActivity.java
 ```
+package com.example.optionmenu_42;
+import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
+public class MainActivity extends AppCompatActivity {
+ private Intent i2;
+ @Override
+ protected void onCreate(Bundle savedInstanceState) {
+ super.onCreate(savedInstanceState);
+ setContentView(R.layout.activity_main);
+ }
+ public boolean onCreateOptionsMenu(Menu menu) {
+ getMenuInflater().inflate(R.menu.my_menu, menu);
+ return true;
+ }
+ public boolean onOptionsItemSelected(MenuItem item) {
+ switch (item.getItemId()) {
+ case R.id.message:
+ Toast.makeText(getApplicationContext(), "Shows share icon", 
+Toast.LENGTH_SHORT).show();
+ return true;
+ case R.id.picture:
+ Toast.makeText(getApplicationContext(), "Shows image icon", 
+Toast.LENGTH_SHORT).show();
+ startActivity(i2);
+ return (true);
+ case R.id.mode:
+ Toast.makeText(getApplicationContext(), "Shows call icon", 
+Toast.LENGTH_SHORT).show();
+ return (true);
+ case R.id.about:
+ Toast.makeText(getApplicationContext(), "calculator menu", 
+Toast.LENGTH_SHORT).show();
+ return (true);
+ case R.id.exit:
+ finish();
+ return (true);}
+ return (super.onOptionsItemSelected(item)); }}
 ```
 ## OUTPUT
 
-
-
+![optionmenu1](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/df884f10-4e73-48ed-86a9-29d21cb4d422)
+![optionmenu2](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/98865733-47ef-4239-8d53-913d3129e2e8)
 
 ## RESULT
 Thus a Simple Android Application to create a option menu to display menu items using Android Studio is developed and executed successfully.
