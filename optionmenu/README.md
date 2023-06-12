@@ -111,7 +111,7 @@ Registeration Number : 212221040118
 ```
 ### MainActivity.java
 ```
-package com.example.optionmenu_42;
+package com.example.optionmenu;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
