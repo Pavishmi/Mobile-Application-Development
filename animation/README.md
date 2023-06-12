@@ -47,8 +47,8 @@ Step12: End the program
 ```
 /*
 Program to display animation operation”.
-Developed by:
-Registeration Number :
+Developed by: Pavishmi S R
+Registeration Number : 212221040118
 */
 ```
 ### activity_main.xml
