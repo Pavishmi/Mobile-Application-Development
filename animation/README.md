@@ -367,3 +367,6 @@ public class MainActivity extends AppCompatActivity {
 ![image](https://github.com/Pavishmi/Mobile-Application-Development/assets/136091280/7f20c824-6fc6-488a-9813-10288a3d3c7d)
 
 ## RESULT
+
+Thus a Simple Android Application develop to add animation to imageview,move,blink,fade,clockwise,zoom,slide operation using Android Studio is developed and executed successfully.
+
