@@ -51,7 +51,7 @@ Registeration Number : 212221040118
 ```
 ### MainActivity.xml
 ```
-package com.example.graphica_42;
+package com.example.graphica;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import android.graphics.Bitmap;
